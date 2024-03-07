@@ -6,10 +6,10 @@ class Kafka(BaseCharacter):
     Level = 1
     maxLevel = 80
     def __init__(self) :
-        setAttack(92)
-        setHP(147) 
-        setDeffence(66)
-        setSpeed(100)
+        BaseCharacter.setAttack(92)
+        BaseCharacter.setHP(147) 
+        BaseCharacter.setDeffence(66)
+        BaseCharacter.setSpeed(100)
         DamageBonusType = "Lightning"
 
     #code for the incremental level up
